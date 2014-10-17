@@ -1,46 +1,46 @@
 ![Skates](http://static.wixstatic.com/media/04a4fc_bbd24139a63647388379754366962dec.jpg_srz_p_980_460_75_22_0.50_1.20_0.00_jpg_srz)
 
 
-# ACTON RocketSkates SDK - iOS Developer Guide
+# ACTON 风火轮 iOS SDK 开发指南
 
-ACTON RocketSkates™, the world’s first smart electric skates, are designed to be lightweight, hands-free and tons of fun. RocketSkates are also packed with smart technology and they can connect with apps on users’ smartphones via Bluetooth.
+ACTON 风火轮是由 ACTON 公司自主设计研发的全球第一款智能可穿戴电动鞋。风火轮使用时无需特殊鞋子，无需任何遥控设备。内置高效锂电、电机及智能控制系统，用户前倾加速，后倾减速及制动，并有多种滑行模式可选。
 
-This document introduces how to integrate ACTON RocketSkates SDK into your iOS app project.
+通过移动端 app 相连，用户可实时查看风火轮状态，跟踪滑行路径，更有基于地理位置的现实互动游戏。
 
-本文档中文版: https://github.com/ActonInc/RocketSkates-iOS-SDK/tree/cn
+本文档介绍了如何在您的 iOS app 中使用 ACTON 风火轮 SDK。
 
-## Requirements
+## 系统需求
 
-ACTON RocketSkates uses Bluetooth Low Energy to communicate with smart phones. In order to utilize this SDK, your iOS project's target API level must be equal to or higher than iOS 6.0.
+ACTON 风火轮通过低功耗蓝牙 (Bluetooth Low Energy) 与智能设备通讯。本 SDK 仅支持 iOS6.0 或更高版本。
 
-Also, please make sure your device have Bluetooth 4.0.
+使用本 SDK 时，需要有蓝牙4.0的apple设备
 
-## SDK Installation
+## SDK 安装和使用
 
-1. Download the latest version of ACTON RocketSkates SDK from our [release page](https://github.com/ActonInc/RocketSkates-iOS-SDK/releases), or clone this project.
+1. 从 [发布页面](https://github.com/ActonInc/RocketSkates-iOS-SDK/releases) 下载最新版 SDK，或者克隆此 repo。
 
-2. Copy `RocketSkates-iOS-SDK` under your project.
+2. 将 `RocketSkates-iOS-SDK` 放进 iOS 项目里。
 
-3. Add `CoreBluetooth.framework` into your project.
+3. 在工程中添加`CoreBluetooth.framework`。
 
-4. Then add `#include RocketSkates_iOS_SDK.h` wherever you want to use this SDK.
+4. 在需要的文件里 `#include RocketSkates_iOS_SDK.h`.
 
-## Sample
+完成以上步骤后，您就可以使用 ACTON 风火轮 SDK 提供的接口了。
 
-We created a sample project for you to start with:
+## 示例
 
-1. Scan for RocketSkates and connect to them.
+1. 搜索并连接附近的 ACTON 风火轮。
 
  ![sample1](https://github.com/ActonInc/RocketSkates-iOS-SDK/raw/master/img/scan.jpg)
 
-2. Retrieve RocketSkates' real-time status, and change their mode.
+2. 获取风火轮的实时状态，切换运行模式。
  
  ![sample2](https://github.com/ActonInc/RocketSkates-iOS-SDK/raw/master/img/info.jpg)
 
-3. Remote-control your RocketSkates.
+3. 使用手机遥控风火轮
 
  ![sample3](https://github.com/ActonInc/RocketSkates-iOS-SDK/raw/master/img/remotecontrol.jpg)
 
-You can download and run this demo project directly, and simply copy some of its code into your project.
+ 可以直接下载运行这个示例工程，并且可以复制里面的代码到你的工程如果有需要的话。
 
 ## FAQ
