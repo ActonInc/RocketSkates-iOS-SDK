@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB0B0C801A5F2CFB003166A9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B0C7F1A5F2CFB003166A9 /* main.m */; };
+		AB0B0C831A5F2CFB003166A9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B0C821A5F2CFB003166A9 /* AppDelegate.m */; };
+		AB0B0C861A5F2CFB003166A9 /* RSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B0C851A5F2CFB003166A9 /* RSViewController.m */; };
+		AB0B0C891A5F2CFB003166A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0B0C871A5F2CFB003166A9 /* Main.storyboard */; };
+		AB0B0C8B1A5F2CFB003166A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0B0C8A1A5F2CFB003166A9 /* Images.xcassets */; };
+		AB0B0C8E1A5F2CFB003166A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0B0C8C1A5F2CFB003166A9 /* LaunchScreen.xib */; };
+		AB0B0C9A1A5F2CFB003166A9 /* RocketSkates_iOS_SDK_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B0C991A5F2CFB003166A9 /* RocketSkates_iOS_SDK_DemoTests.m */; };
+		AB0B0CB01A5F2E2A003166A9 /* bluetooth_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB0B0CA31A5F2E2A003166A9 /* bluetooth_btn@2x.png */; };
+		AB0B0CB11A5F2E2A003166A9 /* controller_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB0B0CA41A5F2E2A003166A9 /* controller_bg@2x.png */; };
+		AB0B0CB21A5F2E2A003166A9 /* fun_rcontrol_dot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB0B0CA51A5F2E2A003166A9 /* fun_rcontrol_dot@2x.png */; };
+		AB0B0CB31A5F2E2A003166A9 /* libRocketSkates_iOS_SDK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB0B0CAA1A5F2E2A003166A9 /* libRocketSkates_iOS_SDK.a */; };
+		AB0B0CB41A5F2E2A003166A9 /* RSDataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B0CAC1A5F2E2A003166A9 /* RSDataViewController.m */; };
+		AB0B0CB51A5F2E2A003166A9 /* RSRControlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0B0CAE1A5F2E2A003166A9 /* RSRControlViewController.m */; };
+		AB0B0CB61A5F2E2A003166A9 /* RSRControlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0B0CAF1A5F2E2A003166A9 /* RSRControlViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB0B0C941A5F2CFB003166A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB0B0C721A5F2CFB003166A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB0B0C791A5F2CFB003166A9;
+			remoteInfo = "RocketSkates-iOS-SDK-Demo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB0B0C7A1A5F2CFB003166A9 /* RocketSkates-iOS-SDK-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RocketSkates-iOS-SDK-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0B0C7E1A5F2CFB003166A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB0B0C7F1A5F2CFB003166A9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB0B0C811A5F2CFB003166A9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AB0B0C821A5F2CFB003166A9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AB0B0C841A5F2CFB003166A9 /* RSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSViewController.h; sourceTree = "<group>"; };
+		AB0B0C851A5F2CFB003166A9 /* RSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSViewController.m; sourceTree = "<group>"; };
+		AB0B0C881A5F2CFB003166A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB0B0C8A1A5F2CFB003166A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AB0B0C8D1A5F2CFB003166A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AB0B0C931A5F2CFB003166A9 /* RocketSkates-iOS-SDK-DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RocketSkates-iOS-SDK-DemoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0B0C981A5F2CFB003166A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB0B0C991A5F2CFB003166A9 /* RocketSkates_iOS_SDK_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RocketSkates_iOS_SDK_DemoTests.m; sourceTree = "<group>"; };
+		AB0B0CA31A5F2E2A003166A9 /* bluetooth_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bluetooth_btn@2x.png"; sourceTree = "<group>"; };
+		AB0B0CA41A5F2E2A003166A9 /* controller_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "controller_bg@2x.png"; sourceTree = "<group>"; };
+		AB0B0CA51A5F2E2A003166A9 /* fun_rcontrol_dot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fun_rcontrol_dot@2x.png"; sourceTree = "<group>"; };
+		AB0B0CA81A5F2E2A003166A9 /* RocketSkates_iOS_SDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RocketSkates_iOS_SDK.h; sourceTree = "<group>"; };
+		AB0B0CA91A5F2E2A003166A9 /* SerialGATT.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SerialGATT.h; sourceTree = "<group>"; };
+		AB0B0CAA1A5F2E2A003166A9 /* libRocketSkates_iOS_SDK.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libRocketSkates_iOS_SDK.a; sourceTree = "<group>"; };
+		AB0B0CAB1A5F2E2A003166A9 /* RSDataViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSDataViewController.h; sourceTree = "<group>"; };
+		AB0B0CAC1A5F2E2A003166A9 /* RSDataViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSDataViewController.m; sourceTree = "<group>"; };
+		AB0B0CAD1A5F2E2A003166A9 /* RSRControlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSRControlViewController.h; sourceTree = "<group>"; };
+		AB0B0CAE1A5F2E2A003166A9 /* RSRControlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSRControlViewController.m; sourceTree = "<group>"; };
+		AB0B0CAF1A5F2E2A003166A9 /* RSRControlViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RSRControlViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB0B0C771A5F2CFB003166A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0B0CB31A5F2E2A003166A9 /* libRocketSkates_iOS_SDK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0B0C901A5F2CFB003166A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB0B0C711A5F2CFB003166A9 = {
+			isa = PBXGroup;
+			children = (
+				AB0B0C7C1A5F2CFB003166A9 /* RocketSkates-iOS-SDK-Demo */,
+				AB0B0C961A5F2CFB003166A9 /* RocketSkates-iOS-SDK-DemoTests */,
+				AB0B0C7B1A5F2CFB003166A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB0B0C7B1A5F2CFB003166A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B0C7A1A5F2CFB003166A9 /* RocketSkates-iOS-SDK-Demo.app */,
+				AB0B0C931A5F2CFB003166A9 /* RocketSkates-iOS-SDK-DemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB0B0C7C1A5F2CFB003166A9 /* RocketSkates-iOS-SDK-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B0C811A5F2CFB003166A9 /* AppDelegate.h */,
+				AB0B0C821A5F2CFB003166A9 /* AppDelegate.m */,
+				AB0B0C841A5F2CFB003166A9 /* RSViewController.h */,
+				AB0B0C851A5F2CFB003166A9 /* RSViewController.m */,
+				AB0B0C871A5F2CFB003166A9 /* Main.storyboard */,
+				AB0B0CA31A5F2E2A003166A9 /* bluetooth_btn@2x.png */,
+				AB0B0CA41A5F2E2A003166A9 /* controller_bg@2x.png */,
+				AB0B0CA51A5F2E2A003166A9 /* fun_rcontrol_dot@2x.png */,
+				AB0B0CA61A5F2E2A003166A9 /* include */,
+				AB0B0CAA1A5F2E2A003166A9 /* libRocketSkates_iOS_SDK.a */,
+				AB0B0CAB1A5F2E2A003166A9 /* RSDataViewController.h */,
+				AB0B0CAC1A5F2E2A003166A9 /* RSDataViewController.m */,
+				AB0B0CAD1A5F2E2A003166A9 /* RSRControlViewController.h */,
+				AB0B0CAE1A5F2E2A003166A9 /* RSRControlViewController.m */,
+				AB0B0CAF1A5F2E2A003166A9 /* RSRControlViewController.xib */,
+				AB0B0C8A1A5F2CFB003166A9 /* Images.xcassets */,
+				AB0B0C8C1A5F2CFB003166A9 /* LaunchScreen.xib */,
+				AB0B0C7D1A5F2CFB003166A9 /* Supporting Files */,
+			);
+			path = "RocketSkates-iOS-SDK-Demo";
+			sourceTree = "<group>";
+		};
+		AB0B0C7D1A5F2CFB003166A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B0C7E1A5F2CFB003166A9 /* Info.plist */,
+				AB0B0C7F1A5F2CFB003166A9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB0B0C961A5F2CFB003166A9 /* RocketSkates-iOS-SDK-DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B0C991A5F2CFB003166A9 /* RocketSkates_iOS_SDK_DemoTests.m */,
+				AB0B0C971A5F2CFB003166A9 /* Supporting Files */,
+			);
+			path = "RocketSkates-iOS-SDK-DemoTests";
+			sourceTree = "<group>";
+		};
+		AB0B0C971A5F2CFB003166A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B0C981A5F2CFB003166A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB0B0CA61A5F2E2A003166A9 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B0CA71A5F2E2A003166A9 /* RocketSkates_iOS_SDK */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		AB0B0CA71A5F2E2A003166A9 /* RocketSkates_iOS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				AB0B0CA81A5F2E2A003166A9 /* RocketSkates_iOS_SDK.h */,
+				AB0B0CA91A5F2E2A003166A9 /* SerialGATT.h */,
+			);
+			path = RocketSkates_iOS_SDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB0B0C791A5F2CFB003166A9 /* RocketSkates-iOS-SDK-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0B0C9D1A5F2CFB003166A9 /* Build configuration list for PBXNativeTarget "RocketSkates-iOS-SDK-Demo" */;
+			buildPhases = (
+				AB0B0C761A5F2CFB003166A9 /* Sources */,
+				AB0B0C771A5F2CFB003166A9 /* Frameworks */,
+				AB0B0C781A5F2CFB003166A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RocketSkates-iOS-SDK-Demo";
+			productName = "RocketSkates-iOS-SDK-Demo";
+			productReference = AB0B0C7A1A5F2CFB003166A9 /* RocketSkates-iOS-SDK-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB0B0C921A5F2CFB003166A9 /* RocketSkates-iOS-SDK-DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB0B0CA01A5F2CFB003166A9 /* Build configuration list for PBXNativeTarget "RocketSkates-iOS-SDK-DemoTests" */;
+			buildPhases = (
+				AB0B0C8F1A5F2CFB003166A9 /* Sources */,
+				AB0B0C901A5F2CFB003166A9 /* Frameworks */,
+				AB0B0C911A5F2CFB003166A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB0B0C951A5F2CFB003166A9 /* PBXTargetDependency */,
+			);
+			name = "RocketSkates-iOS-SDK-DemoTests";
+			productName = "RocketSkates-iOS-SDK-DemoTests";
+			productReference = AB0B0C931A5F2CFB003166A9 /* RocketSkates-iOS-SDK-DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB0B0C721A5F2CFB003166A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ACTON;
+				TargetAttributes = {
+					AB0B0C791A5F2CFB003166A9 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					AB0B0C921A5F2CFB003166A9 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = AB0B0C791A5F2CFB003166A9;
+					};
+				};
+			};
+			buildConfigurationList = AB0B0C751A5F2CFB003166A9 /* Build configuration list for PBXProject "RocketSkates-iOS-SDK-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB0B0C711A5F2CFB003166A9;
+			productRefGroup = AB0B0C7B1A5F2CFB003166A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB0B0C791A5F2CFB003166A9 /* RocketSkates-iOS-SDK-Demo */,
+				AB0B0C921A5F2CFB003166A9 /* RocketSkates-iOS-SDK-DemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB0B0C781A5F2CFB003166A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0B0C891A5F2CFB003166A9 /* Main.storyboard in Resources */,
+				AB0B0CB21A5F2E2A003166A9 /* fun_rcontrol_dot@2x.png in Resources */,
+				AB0B0CB61A5F2E2A003166A9 /* RSRControlViewController.xib in Resources */,
+				AB0B0C8E1A5F2CFB003166A9 /* LaunchScreen.xib in Resources */,
+				AB0B0CB01A5F2E2A003166A9 /* bluetooth_btn@2x.png in Resources */,
+				AB0B0CB11A5F2E2A003166A9 /* controller_bg@2x.png in Resources */,
+				AB0B0C8B1A5F2CFB003166A9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0B0C911A5F2CFB003166A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB0B0C761A5F2CFB003166A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0B0CB51A5F2E2A003166A9 /* RSRControlViewController.m in Sources */,
+				AB0B0C861A5F2CFB003166A9 /* RSViewController.m in Sources */,
+				AB0B0C831A5F2CFB003166A9 /* AppDelegate.m in Sources */,
+				AB0B0C801A5F2CFB003166A9 /* main.m in Sources */,
+				AB0B0CB41A5F2E2A003166A9 /* RSDataViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB0B0C8F1A5F2CFB003166A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB0B0C9A1A5F2CFB003166A9 /* RocketSkates_iOS_SDK_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB0B0C951A5F2CFB003166A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB0B0C791A5F2CFB003166A9 /* RocketSkates-iOS-SDK-Demo */;
+			targetProxy = AB0B0C941A5F2CFB003166A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB0B0C871A5F2CFB003166A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB0B0C881A5F2CFB003166A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB0B0C8C1A5F2CFB003166A9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB0B0C8D1A5F2CFB003166A9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB0B0C9B1A5F2CFB003166A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB0B0C9C1A5F2CFB003166A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB0B0C9E1A5F2CFB003166A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RocketSkates-iOS-SDK-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RocketSkates-iOS-SDK-Demo",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AB0B0C9F1A5F2CFB003166A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "RocketSkates-iOS-SDK-Demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/RocketSkates-iOS-SDK-Demo",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AB0B0CA11A5F2CFB003166A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RocketSkates-iOS-SDK-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RocketSkates-iOS-SDK-Demo.app/RocketSkates-iOS-SDK-Demo";
+			};
+			name = Debug;
+		};
+		AB0B0CA21A5F2CFB003166A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "RocketSkates-iOS-SDK-DemoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RocketSkates-iOS-SDK-Demo.app/RocketSkates-iOS-SDK-Demo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB0B0C751A5F2CFB003166A9 /* Build configuration list for PBXProject "RocketSkates-iOS-SDK-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0B0C9B1A5F2CFB003166A9 /* Debug */,
+				AB0B0C9C1A5F2CFB003166A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB0B0C9D1A5F2CFB003166A9 /* Build configuration list for PBXNativeTarget "RocketSkates-iOS-SDK-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0B0C9E1A5F2CFB003166A9 /* Debug */,
+				AB0B0C9F1A5F2CFB003166A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB0B0CA01A5F2CFB003166A9 /* Build configuration list for PBXNativeTarget "RocketSkates-iOS-SDK-DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB0B0CA11A5F2CFB003166A9 /* Debug */,
+				AB0B0CA21A5F2CFB003166A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB0B0C721A5F2CFB003166A9 /* Project object */;
+}
